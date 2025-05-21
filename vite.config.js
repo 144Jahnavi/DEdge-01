@@ -183,7 +183,7 @@ logger.error = (msg, options) => {
 
 export default defineConfig({
 	customLogger: logger,
-	base: "/DEdge-01/",
+	base: "/",
 	plugins: [react(), addTransformIndexHtml],
 	server: {
 		cors: true,
